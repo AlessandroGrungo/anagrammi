@@ -53,7 +53,7 @@ if __name__ == "__main__":
     model = Model()
 
     start_time = time()
-    print(model.calcola_anagrammi_list(["c", "s", "a"]))
+    print(model.calcola_anagrammi_list("casa"))
     end_time = time()
     print(end_time - start_time)
 
